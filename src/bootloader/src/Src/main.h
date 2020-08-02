@@ -31,6 +31,9 @@
 #elif defined(STM32F1)
 #include "stm32f1xx.h"
 #include "stm32f1xx_hal.h"
+#elif defined(STM32L4)
+#include "stm32l4xx.h"
+#include "stm32l4xx_hal.h"
 #else
 #error "Not supported CPU type!"
 #endif
